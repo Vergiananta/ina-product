@@ -206,11 +206,11 @@ export default function Content() {
             </Col>
             <Col className="mt-5">
                 <p class="title">Standard Privacy Note</p>
-                <p>
+                <p className="form" style={{fontStyle:'italic'}} >
                     I warrant that the above information is true and correct i understand that failure to answer all questions listed in this application form may prevent L'OCCITANE from processing my application and L'OCCITANE may refuse to accept this application in the right of my individual circumstances.
 
                 </p>
-                <p>
+                <p className="form" style={{fontStyle:'italic'}}>
                     I understand that the information collected will be used and retained by L'OCCITANE for the purpose of (i) my application of membership program of L'OCCITANE (ii) providing member-exclusive services, and (iii) the daily management operation and maintenance of membership account at L'OCCITANE.
                 </p>
             </Col>
@@ -228,13 +228,13 @@ export default function Content() {
                 </Row>
             </Col>
             <Col className="mt-5">
-                <div className="form">
+                <div className="form " style={{fontStyle:'italic'}}>
                     <Input type="checkbox" name="site_name"
                         value="true"
                     /> I have read and understood the above terms and condition and hereby agree that i will be bounded by these conditions and policies once have submitted application form
                 </div>
             </Col>
-            <Col class="mt-5 align-self-end" >
+            <Col class="mt-5" >
                 <Button color="warning" className="align-self-end">Create Customer</Button>
                
             </Col>
