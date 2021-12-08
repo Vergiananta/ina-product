@@ -1,0 +1,19 @@
+.top-header{
+    background-color: yellow;
+    height: 5px;
+    width: 100%;
+}
+
+.logo{
+    display:block;
+    margin: 0 auto;
+}
+
+.top-header-bottom{
+    background-color: yellow;
+    width: 100%;
+}
+
+.text-header {
+    font-weight: bold;
+}
