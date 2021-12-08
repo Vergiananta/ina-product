@@ -1,4 +1,4 @@
-import { Col, Container, Input, Label, Row } from "reactstrap";
+import { Button, Col, Container, Input, Label, Row } from "reactstrap";
 import './content.css'
 
 export default function Content() {
@@ -217,15 +217,26 @@ export default function Content() {
             <Col>
                 <Row>
                     <Col>
-                    
+
                     </Col>
                     <Col>
-                    
+
                     </Col>
                     <Col>
-                    
+
                     </Col>
                 </Row>
+            </Col>
+            <Col className="mt-5">
+                <div className="form">
+                    <Input type="checkbox" name="site_name"
+                        value="true"
+                    /> I have read and understood the above terms and condition and hereby agree that i will be bounded by these conditions and policies once have submitted application form
+                </div>
+            </Col>
+            <Col class="mt-5 align-self-end" >
+                <Button color="warning" className="align-self-end">Create Customer</Button>
+               
             </Col>
         </Container>
     )
